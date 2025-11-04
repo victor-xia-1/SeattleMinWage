@@ -17,10 +17,14 @@ library(gt)
 setwd("/Users/VictorXia/ECON1430")
 folder_path = "/Users/VictorXia/ECON1430"
 rm()
+# Victor Xia April 2025
+# NOTES: This script is a preliminary analysis of job counts within the City of Seattle before and after
+# the 2015 treatment (the minimum-wage ordinance) to identify aggregate trends within the LODES data
+# and verify that they match other measures of local employment by sector
+
 #lodes <- read.csv("wa_od_main_JT00_2013.csv") #Upload the data (HARDCODE)
 
 #READING IN LODES FILES
-#KEEP TRACK OF COMMUTE TOTALS
 
 
 LODES_filename <- paste0("wa_wac_S000_JT00_\\d{4}\\.csv")
